@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap";
+
+html {
+    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.draggable-word {
+    font-size: 26px;
+}
+
+.red-2 {
+    color: rgb(254, 74, 73);
+}
+
+.softblue {
+    color: rgb(42, 183, 202);
+}
+
+.yellow-2 {
+    color: rgb(254, 215, 102);
+}
+
+.grey-2 {
+    color: rgb(230, 230, 234);
+}
+
+.softgrey {
+    color: rgb(244, 244, 248);
+}
+
+.bg-red-2 {
+    background-color: rgb(254, 74, 73);
+}
+
+.bg-softblue {
+    background-color: rgb(42, 183, 202);
+}
+
+.bg-yellow-2 {
+    background-color: rgb(254, 215, 102);
+}
+
+.bg-grey-2 {
+    background-color: rgb(230, 230, 234);
+}
+
+.bg-softgrey {
+    background-color: rgb(244, 244, 248);
+}
+
+.active-color {
+    border-color: olivedrab;
+}
+
+.deco-dot-top {
+    text-decoration: overline dotted rgb(254, 74, 73);
+}
+
+.deco-line-through {
+    text-decoration: line-through rgb(254, 74, 73);
+}
+
+.deco-wavy-top {
+    text-decoration: overline wavy rgb(254, 74, 73);
+}
+
+.deco-wavy-bottom {
+    text-decoration: underline wavy rgb(254, 74, 73);
+}
+
+.deco-none {
+    text-decoration: none;
+}
+
+.drag-word {
+    cursor: grab;
+    display: inline-block;
+    touch-action: none;
+    user-select: none;
+    opacity: 1;
+    position: relative;
+    font-size: 19px;
+}

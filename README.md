@@ -8,13 +8,14 @@
     <a href="https://github.com/VikaVP/Simple-Logo-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://vikavp.github.io/Simple-Logo-Generator/">View Demo</a>
+    <a href="https://simple-logo-generator-vikavp.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/VikaVP/Simple-Logo-Generator/issues">Report Bug</a>
     ·
     <a href="https://github.com/VikaVP/Simple-Logo-Generator/issues">Request Feature</a>
   </p>
 </p>
+
 
 [![React JS](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png)](https://www.javascript.com/)
 
@@ -87,7 +88,7 @@ npm install
 ## Demo
 
 See the [open issues](https://github.com/VikaVP/Simple-Logo-Generator/issues) for a list of proposed features (and known issues).
-[Click Here to go to Demo website on netlify](https://vikavp.github.io/Simple-Logo-Generator/)
+[Click Here to go to Demo website on netlify](https://simple-logo-generator-vikavp.netlify.app/)
 
 <!-- CONTRIBUTING -->
 

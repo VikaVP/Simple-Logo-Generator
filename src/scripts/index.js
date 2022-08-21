@@ -8,6 +8,7 @@ const pickColor = document.querySelectorAll('.pick-color');
 const pickDecoration = document.querySelectorAll('.pick-decoration')
 const saveBtn = document.getElementById('btn-save');
 const closeBtn = document.getElementById('btn-close')
+const iconProgress = document.querySelector('.icon-progress');
 
 // register the effect with GSAP:
 gsap.registerEffect({
@@ -48,7 +49,11 @@ closeBtn.addEventListener('click', closeModal)
 
 
 const debouncedText = debounce(changeText, 500);
-inputText.addEventListener('keyup', debouncedText)
+inputText.addEventListener('keyup', (e) => {
+    iconProgress.classList.add('animate-ping')
+    debouncedText(e)
+
+})
 
 splitText()
 

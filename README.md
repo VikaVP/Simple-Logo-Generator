@@ -8,7 +8,7 @@
     <a href="https://github.com/VikaVP/Simple-Logo-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://simple-logo-generator-vikavp.netlify.app/">View Demo</a>
+    <a href="https://simple-logo-generator-vikavp.netlify.app/ ">View Demo</a>
     ·
     <a href="https://github.com/VikaVP/Simple-Logo-Generator/issues">Report Bug</a>
     ·
@@ -88,7 +88,7 @@ npm install
 ## Demo
 
 See the [open issues](https://github.com/VikaVP/Simple-Logo-Generator/issues) for a list of proposed features (and known issues).
-[Click Here to go to Demo website on netlify](https://simple-logo-generator-vikavp.netlify.app/)
+[Click Here to go to Demo website on netlify](https://simple-logo-generator-vikavp.netlify.app/ )
 
 <!-- CONTRIBUTING -->
 

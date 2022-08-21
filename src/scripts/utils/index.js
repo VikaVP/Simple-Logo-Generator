@@ -20,13 +20,13 @@ export const changeSize = (e) => {
 
 export const changeText = async (e) => {
     let val = e.target.value
-    iconProgress.classList.add('animate-ping')
+    // iconProgress.classList.add('animate-ping')
     SplitType.revert('.draggable-word')
     draggableWord.innerHTML = await val
-    setTimeout(() => {
-        splitText()
-        iconProgress.classList.remove('animate-ping')
-    }, 400);
+    // setTimeout(() => {
+    splitText()
+    iconProgress.classList.remove('animate-ping')
+    // }, 400);
 }
 
 export const changeColor = (e) => {
@@ -92,6 +92,7 @@ export const splitText = () => {
         bounds: "html",
         inertia: true
     });
+    // cb()
 }
 
 export const debounce = (func, wait = 100) => {
